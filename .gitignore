@@ -1,0 +1,24 @@
+# Virtual environment
+venv/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Environment / secrets
+.env
+
+# Model binaries + large data (optional — remove if you want to version models)
+models/*.joblib
+data/*.csv
+*.zip
+
+# Logs
+*.log
